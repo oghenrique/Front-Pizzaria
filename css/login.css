@@ -16,11 +16,11 @@ body{
     align-items: center;
 }
 .logo{
-    width: 250px;
+    width: 15.625rem;
 }
 
 img{
-    padding-left: 30px;
+    padding-left: 1.875rem;
     
 }
 
@@ -40,7 +40,7 @@ main{
     height: 35.625rem;
     border-radius: 32px;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
 }
 
 
@@ -58,8 +58,8 @@ main{
 }
 
 input{
-    width: 400px;
-    height: 50px;
+    width: 25rem;
+    height: 3.125rem;
     color: var(--cor-principal);
     outline: 0;
     background-color: #fff;
@@ -90,8 +90,8 @@ input{
     color: white;
     background-color: transparent;
     border: 5px solid #fff;
-    width: 160px;
-    height: 55px;
+    width: 10rem;
+    height: 3.4375rem;
     margin-top: 1.875rem;
 }
 
