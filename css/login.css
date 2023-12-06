@@ -11,9 +11,12 @@ body{
 .retangulo{
     display: flex;
     width: 100vw;
-    height: 100%;
+    height: 15vh;
     background-color: var(--cor-principal);
     align-items: center;
+}
+.logo{
+    width: 250px;
 }
 
 img{
@@ -50,6 +53,7 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 3em;
    
 }
 
@@ -88,6 +92,7 @@ input{
     border: 5px solid #fff;
     width: 160px;
     height: 55px;
+    margin-top: 1.875rem;
 }
 
 .botao:hover{
@@ -109,7 +114,7 @@ input{
 }
 
 .criar-conta{
-    padding-top: 100px;
+    padding-top: 2rem;
     text-align: center;
     color: #fff;
 }
