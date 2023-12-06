@@ -109,9 +109,12 @@ input{
 
 .esquecer-senha{
     color: #fff;
-    text-decoration: underline;
     font-size: 14px;
     cursor: pointer;
+}
+
+.esquecer-senha:hover{
+    text-decoration: underline;
 }
 
 .criar-conta{
@@ -122,5 +125,9 @@ input{
 
 .criar-conta h2{
     cursor: pointer;
+}
+
+.criar-conta h2:hover{
+    text-decoration: underline;
 }
 
