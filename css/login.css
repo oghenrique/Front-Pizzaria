@@ -111,6 +111,7 @@ input{
     color: #fff;
     text-decoration: underline;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .criar-conta{
@@ -122,3 +123,4 @@ input{
 .criar-conta h2{
     cursor: pointer;
 }
+
