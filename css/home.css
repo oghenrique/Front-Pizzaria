@@ -4,3 +4,29 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 3.75rem;
+}
+
+body{
+    background-color: rgba(242, 119, 6, 0.58);
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    padding-left: 3.125rem;
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+input{
+    width: 61.875rem;
+    height: 3.75rem;
+    border-radius: 32px;
+    border-style: none;
+}
