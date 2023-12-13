@@ -193,12 +193,17 @@ i {
     justify-content: start;
     flex-direction: row;
     gap: 100px;
+    
 }
+
+
 
 .foto-pizza {
     position: relative;
     overflow: hidden;
 }
+
+   
 
 .foto-info h2 {
     background-color: rgba(0, 0, 0, 0.6);
@@ -315,6 +320,9 @@ dialog {
     transform: translate(-50%, -50%);
 }
 
+.abrir-modal{
+    display: none;
+}
 
 footer {
     height: 50px;
