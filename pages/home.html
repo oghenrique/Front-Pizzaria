@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,177 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="../img/icon.png">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="../js/home.js" defer></script>
     <title>Home- Tony Pizzaria</title>
 </head>
+
 <body>
     <header>
         <div class="titulo">
             <div class="home">Home</div>
         </div>
-        <input type="text" placeholder="Onde você deseja receber sua compra?">
+        <div class="input-container">
+            <input type="text" placeholder="Buscar algo para matar minha fome...">
+            <i class="fa fa-search"></i>
+        </div>
         <div class="perfil">
-            <div class="foto-perfil"></div>
+            <nav class="carrinho">
+                <img src="../img/carrinho.webp" alt="carrinho">
+            </nav>
+            <div class="foto-perfil">
+                <img src="../img/foto_perfil.webp" alt="foto de perfil">
+            </div>
         </div>
     </header>
     <main>
+        <div class="retangulo">
+            <div class="conteudo-retangulo">
+                <div class="saudacao">
+                    <h1>Olá, Celso, Bom dia.</h1>
+                </div>
+                <div class="input-endereco">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Onde você deseja receber sua compra?">
+                </div>
+                <div class="localizacao">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <h3>Usar minha localização</h3>
+                </div>
+            </div>
+        </div>
+        <div class="titulo-container">
+            <h1>Categorias</h1>
+        </div>
+        <div class="categoria-container">
+            <div class="categoria-caixa"><img src="../img/logo-categoria.webp" alt="logo"></div>
+            <div class="categoria-caixa"><img src="../img/bebida-categoria.webp" alt="bebida"></div>
+            <div class="categoria-caixa"><img src="../img/melancia-categoria.webp" alt="melancia"></div>
+            <div class="categoria-caixa"><img src="../img/pizza-categoria.webp" alt="pizza"></div>
+            <div class="categoria-caixa"><img src="../img/sorvete-categoria.webp" alt="sundae"></div>
+            <div class="categoria-caixa"><img src="../img/sobremesa-categoria.webp" alt="sorvete"></div>
+        </div>
+
+        <div class="titulo-container">
+            <h1>Minhas pizzas favoritas</h1>
+        </div>
+        <div class="pizzas-fotos">
+            <div class="foto-pizza"><img src="../img/calabresa-com-queijo.webp" alt="Pizza de calabresa com queijo">
+                <div class="valor">
+                    <h2>R$ 16,00</h2>
+                </div>
+                <div class="foto-info">
+                    <h2>
+                        Pizza de Calabresa com queijo
+                    </h2>
+                </div>
+            </div>
+            <div class="foto-pizza"><img src="../img/peperoni-com-queijo.webp" alt="Pizza de peperoni com queijo">
+                <div class="valor">
+                    <h2>R$ 19,00</h2>
+                </div>
+                <div class="foto-info">
+                    <h2>
+                        Pizza de Peperoni com queijo
+                    </h2>
+                </div>
+            </div>
+            <div class="foto-pizza"><img src="../img/tomate-com-queijo.webp" alt="Pizza de tomate com queijo">
+                <div class="valor">
+                    <h2>R$ 16,00</h2>
+                </div>
+                <div class="foto-info">
+                    <h2>
+                        Pizza de Tomate com queijo
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="titulo-container">
+            <h1>Recomendados pra você</h1>
+        </div>
+        <div class="pizzas-fotos">
+            <div class="foto-pizza"><img src="../img/peperoni-queijo-tomate.webp"
+                    alt="Pizza de peperoni com queijo e tomate">
+                <div class="valor">
+                    <h2>R$ 21,00</h2>
+                </div>
+                <div class="foto-info">
+                    <h2>
+                        Pizza de peperoni com queijo e tomate
+                    </h2>
+                </div>
+            </div>
+            <div class="foto-pizza"><img src="../img/brotinho-queijo-tomate.webp"
+                    alt="Pizza brotinho com queijo e tomate">
+                <div class="valor">
+                    <h2>R$ 12,00</h2>
+                </div>
+                <div class="foto-info">
+                    <h2>
+                        Pizza brotinho com queijo e tomate
+                    </h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="titulo-container">
+            <h1>Bebidas</h1>
+        </div>
+
+        <!-- Container flex para as bebidas -->
+        <div class="bebidas-container">
+
+            <div class="container-bebida">
+                <div class="conteudo-bebida">
+                    <div class="foto-bebida">
+                        <img src="../img/coca-cola.webp" alt="Coca-Cola">
+                    </div>
+                    <div class="descricao">
+                        <div class="nome-bebida">
+                            <h1>Coca-Cola</h1>
+                        </div>
+                        <div class="detalhes-bebida">
+                            Refrigerante Garrafa 3L Embalagem Econômica
+                        </div>
+                    </div>
+                    <div class="valor-bebida">
+                        <h2>R$ 14,99</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container-bebida">
+                <div class="conteudo-bebida">
+                    <div class="foto-bebida">
+                        <img src="../img/heineken.webp" alt="Cerveja Heineken">
+                    </div>
+                    <div class="descricao">
+                        <div class="nome-bebida">
+                            <h1>Cerveja Heineken</h1>
+                        </div>
+                        <div class="detalhes-bebida">
+                            3 Garrafas de 330ml Embalagem Econômiva
+                        </div>
+                    </div>
+                    <div class="valor-bebida">
+                        <h2>R$ 17,99</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <button>Abrir modal</button>
+        <dialog> 
+            <h2>titulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam doloremque earum optio unde dignissimos, alias accusamus laboriosam consectetur maiores vero repudiandae sequi ipsum voluptatibus. Necessitatibus ab asperiores ipsam vero perferendis!</p>
+        
+            <button>X</button>
+        
+        </dialog>
 
     </main>
     <footer></footer>
