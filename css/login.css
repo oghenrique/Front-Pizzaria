@@ -41,7 +41,7 @@ main{
     color: #fff;
 }
 
-.input-container{
+/* .input-container{
     gap: 12px;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@ input, input:focus{
     border: none;
     outline: 0;
     background: transparent;
-} 
+}  */
 
 
 @media (min-width: 1200px) {
@@ -160,9 +160,6 @@ input, input:focus{
         padding-left: 3.75rem; 
     }
 
-    .input-container::after{
-        display: none;
-    }
     
     ::placeholder{
         color: var(--cor-principal);
