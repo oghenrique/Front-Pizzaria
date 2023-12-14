@@ -159,6 +159,10 @@ input, input:focus{
     .input-container input {
         padding-left: 3.75rem; 
     }
+
+    .input-container::after{
+        display: none;
+    }
     
     ::placeholder{
         color: var(--cor-principal);
