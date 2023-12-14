@@ -1,4 +1,5 @@
 :root{
+    --fonte-principal: 'Roboto', sans-serif;
     --cor-principal: #F27706;
     --cor-transparente: rgba(242, 119, 6, 0.9);
 }
