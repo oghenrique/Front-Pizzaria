@@ -83,7 +83,6 @@ input, input:focus{
         display: flex;
         padding: 0px 0px 0px 0px;
         flex-direction:column;
-        font-family: 'Roboto', sans-serif;
     }
     
     .retangulo{
@@ -209,5 +208,13 @@ input, input:focus{
     
     .criar-conta h2:hover{
         text-decoration: underline;
+    }
+
+    .p-login{
+        width: 90%;
+    }
+
+    body::after {
+        display: none;
     }
 }

@@ -1,0 +1,11 @@
+.left{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+
+.right{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}

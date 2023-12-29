@@ -159,8 +159,10 @@ i {
 }
 
 .titulo-container h1 {
+    position: absolute;
     color: white;
     font-size: 24px;
+    margin-top: 0px;
 }
 
 .categoria-container {
@@ -201,6 +203,12 @@ i {
 .foto-pizza {
     position: relative;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.foto-pizza:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
    
@@ -209,22 +217,16 @@ i {
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     left: 0;
     width: 80%;
-    transform: translateY(100%);
-    opacity: 0;
+    transform: translateY(0);
+    opacity: 1;
     transition: opacity 1s, transform 1s;
     height: 80px;
     border-radius: 8px;
     display: grid;
     place-items: center;
-}
-
-.foto-pizza:hover .foto-info h2 {
-    opacity: 1;
-    transform: translateY(0);
-    bottom: 8px;
 }
 
 .valor {
@@ -238,13 +240,13 @@ i {
     border-radius: 16px;
     width: 7.1875rem;
     height: 2.5rem;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s;
 }
 
-.foto-pizza:hover .valor {
+/* .foto-pizza:hover .valor {
     opacity: 1;
-}
+} */
 
 .container-bebida {
     background-color: #fff;
@@ -306,7 +308,7 @@ dialog::backdrop{
     background-color: rgb(0 0 0 / .5);
 }
 
-dialog {  
+dialog { 
     background-color: var(--cor-principal);
     color: #fff; 
     border: none;
